@@ -28,9 +28,19 @@ gem "haml"
 gem "html5-boilerplate"
 gem "jquery-rails"
 
+# packaging
+gem "jammit"   # use sprockets instead? coz this will be included in rails 3.1
+
+# experimental
+gem "coffeebeans"
+
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 # group :development, :test do
 #   gem 'webrat'
+
+# try steak?
+
 # end
+
