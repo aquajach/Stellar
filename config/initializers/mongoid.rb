@@ -1,0 +1,1 @@
+#Mongoid.load! File.join(Rails.Root, 'config/mongoid.yml')
